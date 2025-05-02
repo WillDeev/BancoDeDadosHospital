@@ -17,7 +17,7 @@ As relações entre essas entidades foram representadas de forma a refletir a re
 
 ## 🛠️ Ferramentas Utilizadas
 
-- [draw.io](https://draw.io) (diagrams.net) para criação do diagrama
+- [draw.io](https://draw.io) para criação do diagrama
 
 ## 📷 Visualização do DER
 
