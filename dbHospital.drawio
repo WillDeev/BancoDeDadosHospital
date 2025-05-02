@@ -1,11 +1,28 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Página-1" id="sYi_9-bd4zvebP601EwW">
-    <mxGraphModel dx="2067" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3021" dy="2364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="UL4wphMUHeNL7HO7xTFo-1" target="tx1sG5r3YP57wAG_Tnjf-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="570" />
+              <mxPoint x="1500" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UL4wphMUHeNL7HO7xTFo-1" value="&lt;font style=&quot;&quot;&gt;Médico&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(default, #49a3d0);fontColor=default;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="-50" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="UL4wphMUHeNL7HO7xTFo-2" target="tx1sG5r3YP57wAG_Tnjf-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="580" />
+              <mxPoint x="2040" y="580" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="UL4wphMUHeNL7HO7xTFo-2" value="Paciente" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(default, #49a3d0);fontColor=default;strokeColor=#6F0000;" parent="1" vertex="1">
           <mxGeometry x="955" y="470" width="120" height="60" as="geometry" />
@@ -217,6 +234,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="UL4wphMUHeNL7HO7xTFo-53" target="tx1sG5r3YP57wAG_Tnjf-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="570" />
+              <mxPoint x="1500" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UL4wphMUHeNL7HO7xTFo-53" value="Consulta" style="rhombus;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#FFC3E5);" parent="1" vertex="1">
           <mxGeometry x="510" y="455" width="170" height="90" as="geometry" />
         </mxCell>
@@ -423,6 +448,53 @@
         </mxCell>
         <mxCell id="tx1sG5r3YP57wAG_Tnjf-32" value="N° da carteiera" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFE1F2);dashed=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="800" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tx1sG5r3YP57wAG_Tnjf-45" target="tx1sG5r3YP57wAG_Tnjf-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2000" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-45" value="Receita do Médico" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="tx1sG5r3YP57wAG_Tnjf-48" target="tx1sG5r3YP57wAG_Tnjf-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345" y="770" />
+              <mxPoint x="1500" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-48" value="Medicamentos Receitados" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFE1F2);dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="790" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tx1sG5r3YP57wAG_Tnjf-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1499.9999999999995" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-49" value="Quantidade" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFE1F2);dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="790" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="tx1sG5r3YP57wAG_Tnjf-50" target="tx1sG5r3YP57wAG_Tnjf-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1655" y="770" />
+              <mxPoint x="1500" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-50" value="Instruções de uso" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFE1F2);dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="790" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-56" value="Relatório da Receita" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tx1sG5r3YP57wAG_Tnjf-58" target="tx1sG5r3YP57wAG_Tnjf-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tx1sG5r3YP57wAG_Tnjf-58" value="Via internet" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=light-dark(#000000,#FFE1F2);dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="780" width="90" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
