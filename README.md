@@ -34,7 +34,7 @@ A segunda versão do sistema precisou incluir:
 
 ### Arquivos
 
-![DER](dbHospital2.pdf)
+![DER](dbHospita2.png)
 
 ---
 
