@@ -34,7 +34,7 @@ A segunda versão do sistema precisou incluir:
 
 ### Arquivos
 
-![MER](dbdiagram.io.png)
+![DER](dbHospital2.pdf)
 
 ---
 
