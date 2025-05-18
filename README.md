@@ -16,7 +16,7 @@ Um hospital local precisa migrar dados de planilhas para um sistema novo. O obje
 - `Departamento`
 
 ### Arquivos
-![DER]()
+![DER](dbHospital.pdf)
 
 ---
 
@@ -46,17 +46,5 @@ A segunda versão do sistema precisou incluir:
 - **Ferramentas:** MySQL Workbench, Draw.io
 - **SGBD:** MySQL
 - **Metodologia:** Modelagem ER → MER → Scripts SQL
-
----
-
-## 🚀 Como Usar
-
-1. **Parte 1:**
-   - Visualize o DER em `/parte1/der_hospital_v1.png`.
-   - Abra o arquivo no MySQL Workbench (se for `.mwb`).
-
-2. **Parte 2:**
-   - Execute os scripts SQL em `/parte2/scripts.sql` para criar as tabelas de internação.
-   - Compare o DER inicial com o MER atualizado.
 
 ---
