@@ -33,8 +33,12 @@ A segunda versão do sistema precisou incluir:
 - Relacionamentos atualizados: `Paciente <- Internacao -> Leito`
 
 ### Arquivos
-- `/parte2/mer_hospital_v2.png` *(modelo expandido)*
-- `/parte2/scripts.sql` *(criação das tabelas novas)*
+
+![MER](dbdiagram.io.png)
+
+---
+
+![MER](dbdiagram.io.png)
 
 ---
 
