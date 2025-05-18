@@ -16,7 +16,7 @@ Um hospital local precisa migrar dados de planilhas para um sistema novo. O obje
 - `Departamento`
 
 ### Arquivos
-![DER](dbHospital.pdf)
+![DER](dbHospital.png)
 
 ---
 
