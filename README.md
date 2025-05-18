@@ -1,30 +1,58 @@
-# 🏥 Banco de Dados de um Hospital
+# 🏥 Sistema Hospitalar - Modelagem de Banco de Dados
 
-Este projeto consiste na modelagem de um banco de dados simples para um hospital, utilizando um **Diagrama Entidade-Relacionamento (DER)** criado no [draw.io](https://draw.io). O objetivo é representar as principais entidades e relações envolvidas na rotina de atendimento médico.
-
-## 🗂️ Entidades Modeladas
-
-O DER contempla as seguintes entidades principais:
-
-- **Paciente**
-- **Médico** (com especializações: Generalista, Especialista, Residente)
-- **Consulta**
-- **Convênio**
-- **Receita**
-- **Medicamentos**
-
-As relações entre essas entidades foram representadas de forma a refletir a realidade básica de um hospital.
-
-## 🛠️ Ferramentas Utilizadas
-
-- [draw.io](https://draw.io) para criação do diagrama
-
-## 📷 Visualização do DER
-
-Abaixo está a imagem do DER exportado:
-
-![Diagrama DER - Hospital](./dbHospital.png)
+> Projeto em duas etapas: **DER inicial** e **expansão para controle de internações**.
 
 ---
 
-**Feito como exercício de modelagem de banco de dados.**
+## 📌 Parte 1: Modelagem Inicial (DER)
+
+### Contexto
+Um hospital local precisa migrar dados de planilhas para um sistema novo. O objetivo era criar um **Diagrama Entidade-Relacionamento (DER)** que representasse suas necessidades básicas.
+
+### Entidades Principais
+- `Paciente`
+- `Médico`
+- `Consulta`
+- `Departamento`
+
+### Arquivos
+![DER]()
+
+---
+
+## 🚑 Parte 2: Expansão para Internações
+
+### Novos Requisitos
+A segunda versão do sistema precisou incluir:
+- Controle de **leitos** e **internações**
+- Registro de **procedimentos** durante a internação
+- Relação entre **equipe médica** e pacientes internados
+
+### Modificações no Modelo
+- Novas entidades: `Internacao`, `Leito`, `Procedimento`
+- Relacionamentos atualizados: `Paciente <- Internacao -> Leito`
+
+### Arquivos
+- `/parte2/mer_hospital_v2.png` *(modelo expandido)*
+- `/parte2/scripts.sql` *(criação das tabelas novas)*
+
+---
+
+## 🛠 Tecnologias Usadas
+- **Ferramentas:** MySQL Workbench, Draw.io
+- **SGBD:** MySQL
+- **Metodologia:** Modelagem ER → MER → Scripts SQL
+
+---
+
+## 🚀 Como Usar
+
+1. **Parte 1:**
+   - Visualize o DER em `/parte1/der_hospital_v1.png`.
+   - Abra o arquivo no MySQL Workbench (se for `.mwb`).
+
+2. **Parte 2:**
+   - Execute os scripts SQL em `/parte2/scripts.sql` para criar as tabelas de internação.
+   - Compare o DER inicial com o MER atualizado.
+
+---
