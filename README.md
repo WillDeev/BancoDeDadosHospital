@@ -44,6 +44,6 @@ A segunda versão do sistema precisou incluir:
 
 ## 🛠 Tecnologias Usadas
 - DER: [draw.io](https://app.diagrams.net/)
-- MER: [dbdiagram.io]()
+- MER: [dbdiagram.io](https://dbdiagram.io/home)
 
 ---
