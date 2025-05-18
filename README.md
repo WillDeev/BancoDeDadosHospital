@@ -43,8 +43,7 @@ A segunda versão do sistema precisou incluir:
 ---
 
 ## 🛠 Tecnologias Usadas
-- **Ferramentas:** MySQL Workbench, Draw.io
-- **SGBD:** MySQL
-- **Metodologia:** Modelagem ER → MER → Scripts SQL
+- DER: [draw.io](https://app.diagrams.net/)
+- MER: [dbdiagram.io]()
 
 ---
