@@ -20,7 +20,7 @@ CREATE TABLE `tbl_consulta` (
   `medico_responsavel` varchar(255) NOT NULL,
   `volor_consulta` decimal(10,2) NOT NULL,
   `paciente` varchar(255) NOT NULL,
-  `n_carteira` int NOT NULL
+  `receita` text NOT NULL
 );
 
 CREATE TABLE `tbl_paciente` (
@@ -51,7 +51,7 @@ CREATE TABLE `tbl_receita` (
 CREATE TABLE `tbl_quarto` (
   `id_quarto` integer PRIMARY KEY,
   `numero_quarto` integer NOT NULL,
-  `tipo` interger
+  `tipo` integer NOT NULL,
 );
 
 CREATE TABLE `tbl_internacao` (
