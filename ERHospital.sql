@@ -18,7 +18,7 @@ CREATE TABLE `tbl_consulta` (
   `id_consulta` integer PRIMARY KEY,
   `data_e_hora` datetime NOT NULL,
   `medico_responsavel` varchar(255) NOT NULL,
-  `volor_consulta` decimal(10,2) NOT NULL,
+  `valor_consulta` decimal(10,2) NOT NULL,
   `paciente` varchar(255) NOT NULL,
   `receita` text NOT NULL
 );
@@ -71,6 +71,20 @@ CREATE TABLE `tbl_endereco` (
   `municipio` varchar(255) NOT NULL,
   `estado` varchar(255) NOT NULL
 );
+
+-- Inserindo dados no tbl_medicos
+use hospital; 
+
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(1, 'Rudney Maciel Ferreira', '328.894.956-39', '3959011540', 'Infectologia');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(2, 'Gustavo Brenno Lopes', '594.555.907-51', '1332057923', 'Endocrinologia');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(3, 'Alisson Correia Maciel', '332.895.741-30', '5267466933', 'Ortopedia');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(4, 'Yasmin Pires Pereira', '928.894.360-98', '3124076244', 'Cardiologia');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(5, 'Maikon Lima Pires', '906.008.336-90', '9688718210', 'Cirurgia Geral');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(6, 'Andrey Muniz Maciel', '831.978.483-22', '5543634329', 'Oncologia');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(7, 'Livia Assis Alves', '477.414.348-02', '6267109638', 'Infectologia');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(8, 'Laysla Rayssa Vieira Sartori', '269.618.422-40', '1820590114', 'Otorrinolaringologia');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(9, 'Esther Junior Alves', '065.497.049-10', '9868982992', 'Pediatria');
+INSERT INTO tbl_medicos(id_medicos, nome, cpf, crm, especialidade) VALUES(10, 'Livia Ferreira Ramos', '438.739.904-07', '0196355769', 'Neurologia');
 
 ALTER TABLE `tbl_endereco` ADD FOREIGN KEY (`id_endereco`) REFERENCES `tbl_paciente` (`endereco`);
 
